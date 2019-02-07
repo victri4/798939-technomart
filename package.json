@@ -1,0 +1,16 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "description": "project_description",
+  "author": "author_name",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uncss": "^1.0.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "start": "*-scripts start"
+  }
+}
