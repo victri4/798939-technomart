@@ -49,7 +49,20 @@ $white: #ffffff;
 $grey: #f4f7f9;
 
 .page-header__wrapper {
+  display: flex;
+  flex-direction: row;
   width: 1200px;
   min-height: 42px;
   background-color: $bg-darkblue;
 }
+
+.page-header__title {
+  width: 220px;
+  height: 47px;
+  text-align: center;
+  background-color: #cd3944;
+
+}
+
+
+

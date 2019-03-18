@@ -4,13 +4,19 @@
   "description": "project_description",
   "author": "author_name",
   "devDependencies": {
+    "grunt-sass": "^3.0.2",
     "gulp": "^3.9.1",
-    "gulp-uncss": "^1.0.0"
+    "gulp-uncss": "^1.0.0",
+    "node-sass": "^4.11.0"
   },
   "dependencies": {
     "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "start": "*-scripts start"
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start"
   }
 }

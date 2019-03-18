@@ -40,6 +40,14 @@ input[type="radio"].visually-hidden {
   overflow: hidden; }
 
 .page-header__wrapper {
+  display: flex;
+  flex-direction: row;
   width: 1200px;
   min-height: 42px;
   background-color: #293449; }
+
+.page-header__title {
+  width: 220px;
+  height: 47px;
+  text-align: center;
+  background-color: #cd3944; }
